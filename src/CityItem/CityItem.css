@@ -1,0 +1,27 @@
+.cityItem__card {
+    background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+    padding:20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+}
+
+.cityItem__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    background-color: #fcfcfc;
+    padding:10px 20px;
+    border-radius: 8px;
+    margin: 5px;
+    color:#0c0220;
+}
+
+button:hover{
+    background-color: #e8e8f0;
+}
